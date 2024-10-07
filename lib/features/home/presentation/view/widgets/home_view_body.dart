@@ -6,14 +6,10 @@ class HomeViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Expanded(
-        child: Column(
-          children: [
-            CustomAppBar(),
-          ],
-        ),
-      ),
+    return const Column(
+      children: [
+        CustomAppBar(),
+      ],
     );
   }
 }
