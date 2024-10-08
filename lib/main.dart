@@ -18,7 +18,9 @@ class BooklyApp extends StatelessWidget {
       //copyWith used to create a acopy and modifing on it
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: kPrimaryColor,
-        textTheme: GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
+        textTheme: GoogleFonts.montserratTextTheme(
+          ThemeData.dark().textTheme,
+        ),
       ),
       debugShowCheckedModeBanner: false,
       home: const SplashView(),
