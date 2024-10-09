@@ -8,7 +8,7 @@ class FeaturedBoxListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 24),
+      padding: const EdgeInsets.only(left: 30),
       child: SizedBox(
         //to be resposive
         //the height of the item to the screen
